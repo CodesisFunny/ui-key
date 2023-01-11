@@ -22,7 +22,7 @@ Framek1.Name = "Framek1"
 Framek1.Parent = ScreenGuik1
 Framek1.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
 Framek1.BorderColor3 = Color3.fromRGB(25, 25, 25)
-Framek1.Position = UDim2.new(0, 908, 0, 199)
+Framek1.Position = UDim2.new(0, 528, 0, 200)
 Framek1.Size = UDim2.new(0, 350, 0, 200)
 
 TextLabel.Parent = Framek1
@@ -62,7 +62,7 @@ UICorner_3.Parent = TextButton
 
 -- Scripts:
 
-local function DYUEDB_fake_script() -- TextButton.LocalScript 
+local function PMWMP_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -71,4 +71,4 @@ local function DYUEDB_fake_script() -- TextButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DYUEDB_fake_script)()
+coroutine.wrap(PMWMP_fake_script)()
